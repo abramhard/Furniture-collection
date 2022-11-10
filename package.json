@@ -2,9 +2,12 @@
   "name": "gulp-start",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-sass": "sass --watch app/scss:app/css",
+    "watch-csso": "csso app/css/style.css --output dist/css/style.min.css --watch",
+    "watch-pug": "pug app/index.pug -w -o dist/",
+    "start": "concurrently \"npm:watch-*\""
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +18,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-uglify-es": "^3.0.0",

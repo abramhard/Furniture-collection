@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="menu ">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link menu__list-link--active" href="gallery.html">
+                                    Gallery
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="logo" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="blog.html">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="contact.html">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="header__btn-mobile">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="header__btn">
+                        <img src="images/icon_menu.svg" alt="burger-button">
+                    </button>
+                    <aside class="rightside-menu rightside-menu--closed">
+                        <button class="rightside-menu__close">
+                            <img src="images/path.svg" alt="path">
+                        </button>
+                        <div class="rightside-menu__content">
+                            <a class="rightside-menu__logo" href="#">
+                                <img src="images/big-logo.png" alt="logo">
+                            </a>
+                            <article class="rightside-menu__article" >
+                                <h2 class="rightside-menu__title">Furniture for life</h2>
+                                <div class="rightside-menu__divider"></div>
+                                <p class="rightside-menu__text">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
+                            </article>
+                            <div class="rightside-menu__image">
+                                <img src="images/content/rightside-image.jpg" alt="image">
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="breadcrums">
+                <div class="container">
+                        <ul class="breadcrums__list">
+                            <a class="breadcrums__link" href="index.html" >
+                                <li class="breadcrums__item">Home</li>
+                            </a>
+                            <a class="breadcrums__link" href="gallery.html" >
+                                <li class="breadcrums__item">Gallery</li>
+                            </a>
+                        </ul>
+                    </div>
+            </div>
+            <section class="gallery" style="margin-top: 83px;">
+                <div class="container-fluid">
+                    <div class="gallery__buttons">
+                        <button class="gallery__button" data-filter=".bedroom">Bedroom furniture</button>
+                        <button class="gallery__button gallery__button--active" data-filter=".living">Living room furniture</button>
+                        <button class="gallery__button" data-filter=".office">Office furniture</button>
+                        <button class="gallery__button" data-filter=".dining">Dining room futniture</button>
+                        <button class="gallery__button" data-filter=".chair">Chair</button>
+                    </div>
+                    <div class="gallery__inner">
+                        <div class="gallery__items-box gallery__items-box--2">
+                            <div class="gallery__items-2 mix bedroom">
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img01.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img02.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items-2 mix living">
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img01.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img02.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items-2 mix office">
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img01.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img02.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items-2 mix dining">
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img01.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img02.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items-2 mix chair">
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img01.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img02.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item-2" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery__items-box" style="margin-top: 36px;">
+                            <div class="gallery__items mix bedroom">
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img01.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img02.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items mix living">
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img01.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img02.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items mix office">
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img01.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img02.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items mix dining">
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img01.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img02.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                            <div class="gallery__items mix chair">
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/gallery-img01.jpg" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img02.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img03.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img04.png" alt="gallery-image">
+                                </a>
+                                <a class="gallery__item" href="#">
+                                    <img class="gallery__img" src="images/content/gallery/masonry/masonry2-img05.png" alt="gallery-image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__info">
+                            <h6 class="footer__info-title">Contact Us</h6>
+                            <p class="footer__info-text">Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably occupy </p>
+                            <a class="footer__info-email" href="mailto:envelope
+                            ouremailaddress@email.com">envelope
+                                ouremailaddress@email.com</a>
+                            <form action="" class="footer__form">
+                                <input class="footer__input" type="email" placeholder="Subscribe by email
+                                ">
+                                <button class="footer__btn" type="submit" >Send</button>
+                            </form>
+                        </div>
+                        <ul class="footer__social-list">
+                            <li class="footer__social-item">
+                                <a class="footer__social-link footer__social-link--facebook" href="#">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a class="footer__social-link footer__social-link--instagram" href="#">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a class="footer__social-link footer__social-link--pinterest" href="#">
+                                    Pinterest
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a class="footer__social-link footer__social-link--whatsapp" href="#">
+                                    WhatsApp
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a class="footer__social-link footer__social-link--youtube" href="#">
+                                    Youtube
+                                </a>
+                            </li>
+                        </ul>
+                        <nav class="footer__menu">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href=""#>Delivery</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href=""#>FAQ</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href=""#>Help</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href=""#>More About Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">674 Gonzales Drive.   Washington, PA 15301</div>  
+        </footer>
+    </div>  
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
